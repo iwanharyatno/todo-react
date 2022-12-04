@@ -18,7 +18,7 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: "/todo-react",
+    path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [

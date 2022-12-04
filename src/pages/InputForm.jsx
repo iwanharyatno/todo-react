@@ -16,7 +16,7 @@ export async function action({ request, params }) {
 
   addTodo(newTodo);
 
-  return redirect('/todos-react/not-finished');
+  return redirect('/not-finished');
 }
 
 export default function InputForm() {
